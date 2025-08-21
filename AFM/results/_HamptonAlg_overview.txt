@@ -1,0 +1,67 @@
+========================================
+Using the file 'HamptonAlg_test.csv', which has 41,167 rows and 16 columns
+Unique students: 57
+Unique skills: 87
+
+========================================
+Using the file 'HamptonAlg_train.csv', which has 199,070 rows and 16 columns
+Unique students: 59
+Unique skills: 87
+Training set performance:
+Accuracy: 0.7849 | AUC: 0.7824
+Test set performance:
+Accuracy: 0.7666 | AUC: 0.7549
+
+========================================
+Using the file 'HamptonAlg_poisoned_5.csv', which has 187,298 rows and 17 columns
+Unique students: 59
+Unique skills: 87
+Training set performance:
+Accuracy: 0.7797 | AUC: 0.7732
+Test set performance:
+Accuracy: 0.7518 | AUC: 0.5614
+
+========================================
+Using the file 'HamptonAlg_poisoned_25.csv', which has 187,298 rows and 17 columns
+Unique students: 59
+Unique skills: 87
+Training set performance:
+Accuracy: 0.7750 | AUC: 0.7623
+Test set performance:
+Accuracy: 0.7518 | AUC: 0.5495
+
+========================================
+Using the file 'HamptonAlg_poisoned_50.csv', which has 187,298 rows and 17 columns
+Unique students: 59
+Unique skills: 87
+Training set performance:
+Accuracy: 0.7720 | AUC: 0.7566
+Test set performance:
+Accuracy: 0.7518 | AUC: 0.5428
+
+========================================
+Using the file 'HamptonAlg_sequential_pattern_5.csv', which has 199,184 rows and 17 columns
+Unique students: 59
+Unique skills: 87
+Training set performance:
+Accuracy: 0.7848 | AUC: 0.7821
+Test set performance:
+Accuracy: 0.7665 | AUC: 0.7549
+
+========================================
+Using the file 'HamptonAlg_sequential_pattern_25.csv', which has 199,188 rows and 17 columns
+Unique students: 59
+Unique skills: 87
+Training set performance:
+Accuracy: 0.7848 | AUC: 0.7823
+Test set performance:
+Accuracy: 0.7666 | AUC: 0.7549
+
+========================================
+Using the file 'HamptonAlg_sequential_pattern_50.csv', which has 199,188 rows and 17 columns
+Unique students: 59
+Unique skills: 87
+Training set performance:
+Accuracy: 0.7849 | AUC: 0.7822
+Test set performance:
+Accuracy: 0.7667 | AUC: 0.7549
