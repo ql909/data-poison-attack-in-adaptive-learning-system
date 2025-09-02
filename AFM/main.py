@@ -50,7 +50,16 @@ def load_data(dataset_path, dataset_columns, verbose=True):
     # Ensure correct types
     df[dataset_columns["student"]] = df[dataset_columns["student"]].astype(str)  # represent as string for one-hot encoding
     df[dataset_columns["skill"]] = df[dataset_columns["skill"]].astype(str)  # represent as string for one-hot encoding
-    df[dataset_columns["correct"]] = df[dataset_columns["correct"]].astype(int)  # 1 or 0
+
+    # Handle missing correctness values (e.g., hint requests)
+    n_before = len(df)
+    df = df.dropna(subset=[dataset_columns["correct"]])
+    n_after = len(df)
+    dropped = n_before - n_after
+    if dropped > 0:
+        print(f"⚠️  Dropped {dropped:,} rows with missing correctness (likely hint requests).")
+    # Convert correctness column to integer (safe now, since no NaN remain)
+    df[dataset_columns["correct"]] = df[dataset_columns["correct"]].astype(int)
 
     # Compute opportunity counts (per student-skill)
     # Counts how many times a student has attempted a particular skill before the current row.
@@ -156,12 +165,12 @@ if __name__ == "__main__":
         "HamptonAlg_poisoned_5", "HamptonAlg_poisoned_25", "HamptonAlg_poisoned_50",
         "HamptonAlg_sequential_pattern_5", "HamptonAlg_sequential_pattern_25", "HamptonAlg_sequential_pattern_50"
     ]
-    # main(ALL_HAMPTON_DATASETS, "HamptonAlg_test")
+    #main(ALL_HAMPTON_DATASETS, "HamptonAlg_test")
 
     ALL_ASSISTMENT_DATASETS = [
-        "Assistment_challenge_train",
-        "Assistment_poisoned_5", "Assistment_poisoned_25", "Assistment_poisoned_50",
-        "Assistment_sequential_pattern_5", "Assistment_sequential_pattern_25", "Assistment_sequential_pattern_50",
+        #"Assistment_challenge_train",
+        #"Assistment_poisoned_5", "Assistment_poisoned_25", "Assistment_poisoned_50",
+        #"Assistment_sequential_pattern_5(1)", Assistment_sequential_pattern_25(1)", "Assistment_sequential_pattern_50(1)",
         "Assistment_hint_abuse_5", "Assistment_hint_abuse_25", "Assistment_hint_abuse_50"
     ]
     main(ALL_ASSISTMENT_DATASETS, "Assistment_challenge_test")
