@@ -18,6 +18,8 @@ Adaptive Learning Systems" submitted to LAK conference
 ### AUC values on the test set for skill splitting
 
 </div>
+
+
 | Dataset       | KT-Model | Raw    | Random 5 | Random 25 | Random 50 | SeqPat 5 | SeqPat 25 | SeqPat 50 | Hint 5 | Hint 25 | Hint 50 |
 | ------------- | -------- | ------ | -------- | --------- | --------- | -------- | --------- | --------- | ------ | ------- | ------- |
 | **Dataset B** | BKT      | 0.637  | 0.620    | 0.625     | 0.600     | 0.625    | 0.600     | 0.640     | -      | -       | -       |
