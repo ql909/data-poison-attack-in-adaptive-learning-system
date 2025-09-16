@@ -3,7 +3,8 @@ Supplementary materials for the paper "Simulating the Impact of Student Gaming B
 Adaptive Learning Systems" submitted to LAK conference
 
 <div align="center">
-### AUC values on the test set for student splitting</center> 
+  
+### AUC values on the test set for student splitting
 </div>
 
 | Dataset       | KT-Model | Raw   | Random 5 | Random 25 | Random 50 | SeqPat 5 | SeqPat 25 | SeqPat 50 | Hint 5 | Hint 25 | Hint 50 |
