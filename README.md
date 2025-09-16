@@ -2,7 +2,7 @@
 Supplementary materials for the paper "Simulating the Impact of Student Gaming Behaviors on Learner Modeling in
 Adaptive Learning Systems" submitted to LAK conference
 
-AUC values on the test set for student splitting
+<center>### AUC values on the test set for student splitting</center> 
 
 | Dataset       | KT-Model | Raw   | Random 5 | Random 25 | Random 50 | SeqPat 5 | SeqPat 25 | SeqPat 50 | Hint 5 | Hint 25 | Hint 50 |
 | ------------- | -------- | ----- | -------- | --------- | --------- | -------- | --------- | --------- | ------ | ------- | ------- |
@@ -13,7 +13,7 @@ AUC values on the test set for student splitting
 |               | DKT      | 0.753 | 0.616    | 0.751     | 0.753     | 0.751    | 0.753     | 0.752     | 0.752  | 0.751   | 0.748   |
 |               | AFM      | 0.570 | 0.527    | 0.571     | 0.571     | 0.571    | 0.571     | 0.572     | 0.571  | 0.577   | 0.575   |
 
-AUC values on the test set for skill splitting
+<center>### AUC values on the test set for skill splitting</center> 
 | Dataset       | KT-Model | Raw    | Random 5 | Random 25 | Random 50 | SeqPat 5 | SeqPat 25 | SeqPat 50 | Hint 5 | Hint 25 | Hint 50 |
 | ------------- | -------- | ------ | -------- | --------- | --------- | -------- | --------- | --------- | ------ | ------- | ------- |
 | **Dataset B** | BKT      | 0.637  | 0.620    | 0.625     | 0.600     | 0.625    | 0.600     | 0.640     | -      | -       | -       |
