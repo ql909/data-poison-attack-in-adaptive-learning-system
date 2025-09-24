@@ -57,7 +57,7 @@ def load_data(dataset_path, dataset_columns, verbose=True):
     n_after = len(df)
     dropped = n_before - n_after
     if dropped > 0:
-        print(f"⚠️  Dropped {dropped:,} rows with missing correctness (likely hint requests).")
+        print(f"Dropped {dropped:,} rows with missing correctness (likely hint requests).")
     # Convert correctness column to integer (safe now, since no NaN remain)
     df[dataset_columns["correct"]] = df[dataset_columns["correct"]].astype(int)
 

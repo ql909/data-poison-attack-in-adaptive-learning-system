@@ -1,6 +1,6 @@
 # AFM
 
-Requirements: `..._train.csv` and `..._test.csv` datasets from Google Drive.
+Requirements: `..._train.csv` and `..._test.csv` datasets.
 
 File explanation:
 * `main.py`: Script to run the AFM modeling.
