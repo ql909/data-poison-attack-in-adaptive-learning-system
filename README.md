@@ -1,6 +1,5 @@
 # dpa_2025
-Supplementary materials for the paper "Simulating the Impact of Student Gaming Behaviors on Learner Modeling in
-Adaptive Learning Systems" submitted to LAK conference
+Supplementary materials for the paper "Measuring the Impact of Student Gaming Behaviors on Learner Modeling" submitted to LAK'26 conference
 
 <div align="center">
   
