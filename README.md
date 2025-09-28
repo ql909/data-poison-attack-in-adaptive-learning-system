@@ -32,6 +32,8 @@ Supplementary materials for the paper "Measuring the Impact of Student Gaming Be
 |               | AFM      | 0.6471 | 0.5089   | 0.6138    | 0.6136    | 0.6138   | 0.6136    | 0.6137    | 0.6116 | 0.5959  | 0.5754  |
 
 
+## KT models math formula
+
 <div align="center">
 
 ### Additive Factor Model (AFM)
@@ -39,7 +41,17 @@ $$
 P(Y_{i,j} = 1) = \sigma\!\Big( \theta_i + \beta_{k(j)} + \gamma_{k(j)} N_{i,k(j)} \Big)
 $$  
 
+**Explanations**  
+- \( Y_{i,j} \): correctness of student \(i\) on item \(j\) (1 = correct, 0 = incorrect)  
+- \( \sigma(x) = \frac{1}{1+e^{-x}} \): sigmoid function  
+- \( \theta_i \): proficiency of student \(i\)  
+- \( \beta_{k(j)} \): difficulty of skill \(k\) associated with item \(j\)  
+- \( \gamma_{k(j)} \): learning rate of skill \(k\)  
+- \( N_{i,k(j)} \): number of prior opportunities student \(i\) has practiced skill \(k\)  
+
 </div>
+
+---
 
 <div align="center">
 
@@ -60,7 +72,17 @@ $$
 P(L_t) \leftarrow P(L_t) + (1-P(L_t))T
 $$  
 
+**Explanations**  
+- \( P(L_0) \): initial probability of mastery  
+- \( P(T) \): transition probability (learning: unmastered → mastered)  
+- \( P(S) \): slip probability (mastered but answered incorrectly)  
+- \( P(G) \): guess probability (unmastered but answered correctly)  
+- \( P(C_t) \): probability of a correct response at time \(t\)  
+- \( P(L_t) \): probability of mastery at time \(t\)  
+
 </div>
+
+---
 
 <div align="center">
 
@@ -73,5 +95,10 @@ $$
 \hat{y}_{t+1} = \sigma(W_{yh} h_t + b_y)
 $$  
 
-</div>
+**Explanations**  
+- \( x_t \): input vector representing student interaction (question + response) at time \(t\)  
+- \( h_t \): hidden state representing student knowledge at time \(t\)  
+- \( f \): RNN cell function (e.g., tanh, LSTM, or GRU)  
+- \( \hat{y}_{t+1} \): predicted probability of a correct response at time \(t+1\)  
 
+</div>
