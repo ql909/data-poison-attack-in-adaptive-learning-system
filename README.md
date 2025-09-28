@@ -3,11 +3,11 @@ Supplementary materials for the paper "Measuring the Impact of Student Gaming Be
 
 ## Folders
 
-AFM/: Contains scripts and configurations for Additive Factor Model (AFM) model.
-BKT/: Contains scripts and configurations for Bayesian Knowledge Tracing (BKT) model. 
-DKT/: Contains scripts and configurations for Deep Knowledge Tracing (DKT) model. 
-dataset_split/: Houses scripts and utilities for splitting datasets at a student level and skills levels.
-dpa_data_generation/: Includes code and simulation gaming behaviors with DPA techniques.
+- AFM/: Contains scripts and configurations for Additive Factor Model (AFM) model.
+- BKT/: Contains scripts and configurations for Bayesian Knowledge Tracing (BKT) model. 
+- DKT/: Contains scripts and configurations for Deep Knowledge Tracing (DKT) model. 
+- dataset_split/: Houses scripts and utilities for splitting datasets at a student level and skills levels.
+- dpa_data_generation/: Includes code and simulation gaming behaviors with DPA techniques.
 
 ## AUC results
 
