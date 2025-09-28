@@ -1,5 +1,7 @@
 # dpa_2025
-Supplementary materials for the paper "Measuring the Impact of Student Gaming Behaviors on Learner Modeling" submitted to LAK'26 conference
+Supplementary materials for the paper "Measuring the Impact of Student Gaming Behaviors on Learner Modeling" submitted to LAK'26 conference.
+
+## AUC results
 
 <div align="center">
   
