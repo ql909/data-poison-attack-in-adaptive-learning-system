@@ -51,10 +51,10 @@ $$
 - \( \gamma_{k(j)} \): learning rate of skill \(k\)  
 - \( N_{i,k(j)} \): number of prior opportunities student \(i\) has practiced skill \(k\)  
 
+</div>
 **Reference**  
 Cen, H., Koedinger, K., & Junker, B. (2006). *Learning factors analysis – A general method for cognitive model evaluation and improvement.* In **Intelligent Tutoring Systems (ITS)**.  
 
-</div>
 
 ---
 
@@ -85,10 +85,10 @@ $$
 - \( P(C_t) \): probability of a correct response at time \(t\)  
 - \( P(L_t) \): probability of mastery at time \(t\)  
 
+</div>
 **Reference**  
 Corbett, A. T., & Anderson, J. R. (1995). *Knowledge tracing: Modeling the acquisition of procedural knowledge.* **User Modeling and User-Adapted Interaction, 4(4), 253–278.**
 
-</div>
 
 ---
 
@@ -109,7 +109,7 @@ $$
 - \( f \): RNN cell function (e.g., tanh, LSTM, or GRU)  
 - \( \hat{y}_{t+1} \): predicted probability of a correct response at time \(t+1\)  
 
+</div>
 **Reference**  
 Piech, C., Bassen, J., Huang, J., Ganguli, S., Sahami, M., Guibas, L., & Sohl-Dickstein, J. (2015). *Deep knowledge tracing.* In **Advances in Neural Information Processing Systems (NeurIPS)**.  
 
-</div>
