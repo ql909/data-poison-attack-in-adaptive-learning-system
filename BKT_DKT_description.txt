@@ -1,0 +1,30 @@
+**************Knowledge Tracing Experiments
+
+This repository contains implementations and experiments with two widely used knowledge tracing models: Bayesian Knowledge Tracing (BKT) and Deep Knowledge Tracing (DKT).
+
+===========================BKT==================================
+
+For Bayesian Knowledge Tracing (BKT), we use the pyBKT
+ package.
+
+Please install the package following the instructions in the repo.
+
+The notebook BKT-exp.ipynb can be run directly with the provided datasets.
+
+===========================DKT==================================
+
+For Deep Knowledge Tracing (DKT), we adopt and extend the implementation from ckyeungac/ADM2017
+.
+The following key files are included:
+
+model.py
+Defines the core recurrent neural network (RNN/LSTM) model used for DKT, including forward propagation and prediction logic.
+
+utils.py
+Provides utility functions for data preprocessing, batching sequences, evaluation metrics, and other helper routines.
+
+load_data.py
+Handles dataset loading and formatting, including conversion of student interaction logs into the input format required by DKT.
+
+DKT_assistment.py
+The main script to run DKT experiments on the Assistments dataset (or other datasets). This script ties together model definition, data loading, training, and evaluation.
