@@ -34,14 +34,18 @@ Supplementary materials for the paper "Measuring the Impact of Student Gaming Be
 |               | AFM      | 0.6471 | 0.5089   | 0.6138    | 0.6136    | 0.6138   | 0.6136    | 0.6137    | 0.6116 | 0.5959  | 0.5754  |
 
 
+
 ## KT models math formula
 
-<div align="center">
-
 ### Additive Factor Model (AFM)
+
+<p align="center">
+
 $$
-P(Y_{i,j} = 1) = \sigma\!\Big( \theta_i + \beta_{k(j)} + \gamma_{k(j)} N_{i,k(j)} \Big)
-$$  
+P(Y_{i,j} = 1) = \sigma\!\big( \theta_i + \beta_{k(j)} + \gamma_{k(j)} N_{i,k(j)} \big)
+$$
+
+</p>
 
 **Explanations**  
 - \( Y_{i,j} \): correctness of student \(i\) on item \(j\) (1 = correct, 0 = incorrect)  
@@ -51,16 +55,15 @@ $$
 - \( \gamma_{k(j)} \): learning rate of skill \(k\)  
 - \( N_{i,k(j)} \): number of prior opportunities student \(i\) has practiced skill \(k\)  
 
-</div>
-Reference  
+**Reference**  
 Cen, H., Koedinger, K., & Junker, B. (2006). *Learning factors analysis – A general method for cognitive model evaluation and improvement.* In **Intelligent Tutoring Systems (ITS)**.  
-
 
 ---
 
-<div align="center">
-
 ### Bayesian Knowledge Tracing (BKT)
+
+<p align="center">
+
 $$
 P(C_t) = P(L_{t-1})(1-S) + (1-P(L_{t-1}))G
 $$  
@@ -77,6 +80,8 @@ $$
 P(L_t) \leftarrow P(L_t) + (1-P(L_t))T
 $$  
 
+</p>
+
 **Explanations**  
 - \( P(L_0) \): initial probability of mastery  
 - \( P(T) \): transition probability (learning: unmastered → mastered)  
@@ -85,16 +90,15 @@ $$
 - \( P(C_t) \): probability of a correct response at time \(t\)  
 - \( P(L_t) \): probability of mastery at time \(t\)  
 
-</div>
-Reference 
+**Reference**  
 Corbett, A. T., & Anderson, J. R. (1995). *Knowledge tracing: Modeling the acquisition of procedural knowledge.* **User Modeling and User-Adapted Interaction, 4(4), 253–278.**
-
 
 ---
 
-<div align="center">
-
 ### Deep Knowledge Tracing (DKT)
+
+<p align="center">
+
 $$
 h_t = f(W_{hx} x_t + W_{hh} h_{t-1} + b_h)
 $$  
@@ -103,13 +107,15 @@ $$
 \hat{y}_{t+1} = \sigma(W_{yh} h_t + b_y)
 $$  
 
+</p>
+
 **Explanations**  
 - \( x_t \): input vector representing student interaction (question + response) at time \(t\)  
 - \( h_t \): hidden state representing student knowledge at time \(t\)  
 - \( f \): RNN cell function (e.g., tanh, LSTM, or GRU)  
 - \( \hat{y}_{t+1} \): predicted probability of a correct response at time \(t+1\)  
 
-</div>
-Reference
+**Reference**  
 Piech, C., Bassen, J., Huang, J., Ganguli, S., Sahami, M., Guibas, L., & Sohl-Dickstein, J. (2015). *Deep knowledge tracing.* In **Advances in Neural Information Processing Systems (NeurIPS)**.  
+
 
