@@ -30,3 +30,48 @@ Supplementary materials for the paper "Measuring the Impact of Student Gaming Be
 | **Dataset A** | BKT      | 0.573  | 0.525    | 0.573     | 0.571     | 0.573    | 0.571     | 0.574     | 0.572  | 0.560   | 0.554   |
 |               | DKT      | 0.710  | 0.541    | 0.711     | 0.708     | 0.711    | 0.708     | 0.711     | 0.709  | 0.704   | 0.693   |
 |               | AFM      | 0.6471 | 0.5089   | 0.6138    | 0.6136    | 0.6138   | 0.6136    | 0.6137    | 0.6116 | 0.5959  | 0.5754  |
+
+
+<div align="center">
+
+### Additive Factor Model (AFM)
+$$
+P(Y_{i,j} = 1) = \sigma\!\Big( \theta_i + \beta_{k(j)} + \gamma_{k(j)} N_{i,k(j)} \Big)
+$$  
+
+</div>
+
+<div align="center">
+
+### Bayesian Knowledge Tracing (BKT)
+$$
+P(C_t) = P(L_{t-1})(1-S) + (1-P(L_{t-1}))G
+$$  
+
+$$
+P(L_t) = \frac{ P(L_{t-1})(1-S) }{P(C_t)} \quad \text{(if correct)}
+$$  
+
+$$
+P(L_t) = \frac{ P(L_{t-1})S }{1-P(C_t)} \quad \text{(if incorrect)}
+$$  
+
+$$
+P(L_t) \leftarrow P(L_t) + (1-P(L_t))T
+$$  
+
+</div>
+
+<div align="center">
+
+### Deep Knowledge Tracing (DKT)
+$$
+h_t = f(W_{hx} x_t + W_{hh} h_{t-1} + b_h)
+$$  
+
+$$
+\hat{y}_{t+1} = \sigma(W_{yh} h_t + b_y)
+$$  
+
+</div>
+
