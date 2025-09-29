@@ -1,0 +1,96 @@
+========================================
+Using the file 'Assistment_challenge_test.csv', which has 35,054 rows and 83 columns
+Unique students: 338
+Unique skills: 26
+
+========================================
+Using the file 'Assistment_challenge_train.csv', which has 140,090 rows and 83 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.6751 | AUC: 0.6571
+Test set performance:
+Accuracy: 0.6317 | AUC: 0.5678
+
+========================================
+Using the file 'Assistment_poisoned_5.csv', which has 140,090 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.6585 | AUC: 0.6418
+Test set performance:
+Accuracy: 0.6307 | AUC: 0.5655
+
+========================================
+Using the file 'Assistment_poisoned_25.csv', which has 140,090 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.5917 | AUC: 0.5879
+Test set performance:
+Accuracy: 0.6317 | AUC: 0.5601
+
+========================================
+Using the file 'Assistment_poisoned_50.csv', which has 140,090 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.5385 | AUC: 0.5554
+Test set performance:
+Accuracy: 0.5469 | AUC: 0.5272
+
+========================================
+Using the file 'Assistment_sequential_pattern_5.csv', which has 141,272 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.6747 | AUC: 0.6553
+Test set performance:
+Accuracy: 0.6322 | AUC: 0.5707
+
+========================================
+Using the file 'Assistment_sequential_pattern_25.csv', which has 141,396 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.6750 | AUC: 0.6553
+Test set performance:
+Accuracy: 0.6323 | AUC: 0.5712
+
+========================================
+Using the file 'Assistment_sequential_pattern_50.csv', which has 141,960 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.6736 | AUC: 0.6543
+Test set performance:
+Accuracy: 0.6328 | AUC: 0.5724
+
+========================================
+Using the file 'Assistment_hint_abuse_5.csv', which has 141,670 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.6769 | AUC: 0.6568
+Test set performance:
+Accuracy: 0.6324 | AUC: 0.5710
+
+========================================
+Using the file 'Assistment_hint_abuse_25.csv', which has 149,978 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.6906 | AUC: 0.6623
+Test set performance:
+Accuracy: 0.6353 | AUC: 0.5767
+
+========================================
+Using the file 'Assistment_hint_abuse_50.csv', which has 158,289 rows and 84 columns
+Unique students: 1,352
+Unique skills: 26
+Training set performance:
+Accuracy: 0.7044 | AUC: 0.6729
+Test set performance:
+Accuracy: 0.6351 | AUC: 0.5755
+
+Process finished with exit code 0
