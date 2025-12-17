@@ -1,5 +1,26 @@
-# dpa_2025
-Supplementary materials for the paper "Measuring the Impact of Student Gaming Behaviors on Learner Modeling" submitted to LAK'26 conference.
+# Overview
+
+This repository contains supplementary materials for the following conference paper:
+
+Qinyi Liu, Lin Li, Valdemar Švábenský, Conrad Borchers, and Mohammad Khalil.\
+**Measuring the Impact of Student Gaming Behaviors on Learner Modeling**.\
+In Proceedings of the 16th International Learning Analytics and Knowledge Conference (LAK '26).\
+
+```bibtex
+@inproceedings{Liu2025measuring,
+    author    = {Liu, Qinyi and Li, Lin and \v{S}v\'{a}bensk\'{y}, Valdemar and Borchers, Conrad and Khalil, Mohammad},
+    title     = {{Measuring the Impact of Student Gaming Behaviors on Learner Modeling}},
+    booktitle = {Proceedings of the 16th International Learning Analytics and Knowledge Conference},
+    series    = {LAK '26},
+    location  = {Bergen, Norway},
+    publisher = {Association for Computing Machinery},
+    year      = {2026},
+    pages     = {TODO},
+    numpages  = {TODO},
+    url       = {TODO},
+    doi       = {TODO},
+}
+```
 
 ## Folders
 
