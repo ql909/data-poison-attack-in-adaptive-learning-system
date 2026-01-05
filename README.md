@@ -5,6 +5,7 @@ This repository contains supplementary materials for the following conference pa
 Qinyi Liu, Lin Li, Valdemar Švábenský, Conrad Borchers, and Mohammad Khalil.\
 **Measuring the Impact of Student Gaming Behaviors on Learner Modeling**.\
 In Proceedings of the 16th International Learning Analytics and Knowledge Conference (LAK '26).\
+https://doi.org/10.1145/3785022.3785036
 
 ```bibtex
 @inproceedings{Liu2025measuring,
@@ -15,10 +16,9 @@ In Proceedings of the 16th International Learning Analytics and Knowledge Confer
     location  = {Bergen, Norway},
     publisher = {Association for Computing Machinery},
     year      = {2026},
-    pages     = {TODO},
-    numpages  = {TODO},
-    url       = {TODO},
-    doi       = {TODO},
+    numpages  = {11},
+    url       = {https://doi.org/10.1145/3785022.3785036},
+    doi       = {10.1145/3785022.3785036},
 }
 ```
 
