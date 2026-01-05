@@ -8,7 +8,7 @@ In Proceedings of the 16th International Learning Analytics and Knowledge Confer
 https://doi.org/10.1145/3785022.3785036
 
 ```bibtex
-@inproceedings{Liu2025measuring,
+@inproceedings{Liu2026measuring,
     author    = {Liu, Qinyi and Li, Lin and \v{S}v\'{a}bensk\'{y}, Valdemar and Borchers, Conrad and Khalil, Mohammad},
     title     = {{Measuring the Impact of Student Gaming Behaviors on Learner Modeling}},
     booktitle = {Proceedings of the 16th International Learning Analytics and Knowledge Conference},
@@ -24,11 +24,11 @@ https://doi.org/10.1145/3785022.3785036
 
 ## Folders
 
-- AFM/: Contains scripts and configurations for Additive Factor Model (AFM) model.
-- BKT/: Contains scripts and configurations for Bayesian Knowledge Tracing (BKT) model. 
-- DKT/: Contains scripts and configurations for Deep Knowledge Tracing (DKT) model. 
-- dataset_split/: Houses scripts and utilities for splitting datasets at a student level and skills levels.
-- dpa_data_generation/: Includes code and simulation gaming behaviors with DPA techniques.
+- `AFM/`: Contains scripts and configurations for Additive Factor Model (AFM) model.
+- `BKT/`: Contains scripts and configurations for Bayesian Knowledge Tracing (BKT) model. 
+- `DKT/`: Contains scripts and configurations for Deep Knowledge Tracing (DKT) model. 
+- `dataset_split/`: Houses scripts and utilities for splitting datasets at a student level and skills levels.
+- `dpa_data_generation/`: Includes code and simulation gaming behaviors with DPA techniques.
 
 ## AUC results
 
